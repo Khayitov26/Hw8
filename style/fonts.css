@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'RB';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'OSL';
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'OSR';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'OSSb';
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'OSB';
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
