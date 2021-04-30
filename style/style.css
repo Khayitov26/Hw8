@@ -345,8 +345,8 @@ body {
 }
 
 .service10a {
-    border-bottom: 1px solid blue;
-    color: blue;
+    border-bottom: 1px solid #4985FF;
+    color: #4985FF;
 }
 
 .service10p {
@@ -392,7 +392,7 @@ body {
 
 .service11in span {
     font-size: 36px;
-    color: deepskyblue;
+    color: #4985FF;
 }
 
 .service11h3 {
@@ -550,7 +550,7 @@ body {
 } */
 
 .plan13sp {
-    color: #504DC2;
+    color: #4985FF;
 }
 
 .plan13h3 {
@@ -572,7 +572,7 @@ body {
     color: black;
     /* border-bottom: 2px solid #504DC2; */
     margin-top: 50px;
-    color: #504DC2;
+    color: #4985FF;
     display: inline-block;
 }
 
