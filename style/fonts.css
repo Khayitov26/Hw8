@@ -22,3 +22,13 @@
     font-family: 'OSB';
     src: url(../fonts/OpenSans-Bold.ttf);
 }
+
+@font-face {
+    font-family: 'MR';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'MB';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}

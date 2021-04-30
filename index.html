@@ -12,40 +12,46 @@
 
 <body>
 
-    <header class="header" id="Home">
-        <div class="container">
-            <div class="row mh-100 flex-column">
-                <div class="header10 col-12 d-flex">
-                    <!-- <a href="#" class="logo"><span class="fal fa-spider-web"></span></a> -->
-                    <nav class="nav">
-                        <ul class="ul">
-                            <li><a href="#Home" class="navli">Главная</a></li>
-                            <li><a href="#About" class="navli">Наши проекты</a></li>
-                            <li><a href="#Servicing" class="navli">Услуги</a></li>
-                            <li><a href="#Portfolio" class="navli">Новости</a></li>
-                            <!-- <li><a href="#Blog" class="navli">Blog</a></li> -->
-                            <li><a href="#Contact" class="navli">Контакты</a></li>
-                            <!-- <li><a href="#" class="navli"><i class="fas fa-search"></i></a></li>
-                            <i class="fas fa-bars bar"></i> -->
-                        </ul>
-                    </nav>
-                </div>
-                <div class="header11 col-12 flex-grow d-flex flex-column  align-items-center">
-                    <p class="header11p">
-                        Передовая IT студия
-                    </p>
-                    <h1 class="header11h1">
-                        Мы создаем легкие решения сложных задач и проблем
-                    </h1>
-
-                    <div class="header11in">
-                        <a href="#" class="header11a">Наши проекты</a>
-                        <!-- <a href="#" class="header11a">HIRE IS NOW</a> -->
-                    </div>
-                    <!-- <a href="" class="header11a10"><i class="fas fa-angle-down"></i></a> -->
-                </div>
+    <header class="header mh-100 " id="Home">
+        <div class="header__nav">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="ul">
+                        <li><a href="#Home" class="navli">Главная</a></li>
+                        <li><a href="#About" class="navli">Наши проекты</a></li>
+                        <li><a href="#Servicing" class="navli">Услуги</a></li>
+                        <li><a href="#Portfolio" class="navli">Новости</a></li>
+                        <!-- <li><a href="#Blog" class="navli">Blog</a></li> -->
+                        <li><a href="#Contact" class="navli">Контакты</a></li>
+                        <!-- <li><a href="#" class="navli"><i class="fas fa-search"></i></a></li>
+                        <i class="fas fa-bars bar"></i> -->
+                    </ul>
+                </nav>
             </div>
         </div>
+
+        <!-- <div class="container">
+            <div class="row flex-column"> -->
+        <!-- <div class="header10 col-12 d-flex"> -->
+        <!-- <a href="#" class="logo"><span class="fal fa-spider-web"></span></a> -->
+
+        <!-- </div> -->
+        <div class="header11 flex-grow d-flex flex-column  align-items-center">
+            <p class="header11p">
+                Передовая IT студия
+            </p>
+            <h1 class="header11h1">
+                Мы создаем легкие решения сложных задач и проблем
+            </h1>
+
+            <div class="header11in">
+                <a href="#" class="header11a">Наши проекты</a>
+                <!-- <a href="#" class="header11a">HIRE IS NOW</a> -->
+            </div>
+            <!-- <a href="" class="header11a10"><i class="fas fa-angle-down"></i></a> -->
+        </div>
+        <!-- </div>
+        </div> -->
     </header>
 
     <main class="main">
@@ -61,9 +67,21 @@
                             является стандартной "рыбой" для текстов на латинице с начала XVI века.
                         </p>
                     </div>
-                    <div class="about11 col-12 d-flex justify-content-between">
-                        <div class="about11in col-3 d-flex   align-items-center">
-                            <span class="ficon fal fa-globe"></span>
+                    <div class="about11  d-flex justify-content-between">
+                        <div class="about11in  d-flex   align-items-center">
+                            <span class="about11inspan ficon fal fa-globe"></span>
+                            <div class="about11indiv">
+                                <h3 class="about11h3">
+                                    Создание сайтов
+                                </h3>
+                                <p class="about11p">
+                                    Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="about11in   d-flex   align-items-center">
+                            <span class="about11inspan ficon fal fa-globe"></span>
                             <div>
                                 <h3 class="about11h3">
                                     Создание сайтов
@@ -74,20 +92,8 @@
                             </div>
 
                         </div>
-                        <div class="about11in col-3 d-flex   align-items-center">
-                            <span class="ficon fal fa-globe"></span>
-                            <div>
-                                <h3 class="about11h3">
-                                    Создание сайтов
-                                </h3>
-                                <p class="about11p">
-                                    Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.
-                                </p>
-                            </div>
-
-                        </div>
-                        <div class="about11in col-3 d-flex  align-items-center">
-                            <span class="ficon fal fa-globe"></span>
+                        <div class="about11in  d-flex  align-items-center">
+                            <span class="about11inspan ficon fal fa-globe"></span>
                             <div>
                                 <h3 class="about11h3">
                                     Создание сайтов
@@ -110,8 +116,8 @@
             <div class="container">
                 <div class="row">
                     <div class="servicein col-12  d-flex flex-column">
-                        <div class="service10  align-items-center d-flex ">
-                            <div>
+                        <div class="service10  align-items-center d-flex justify-content-between">
+                            <div class="service10div">
                                 <h2 class="service10h2 h2">
                                     Высокие стандарты разработки
                                 </h2>
@@ -120,7 +126,7 @@
                                     Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
                                     стандартной "рыбой" для текстов на латинице с начала XVI века.
                                 </p>
-                                <a href="service10a">Подробнее о компании</a>
+                                <a class="service10a" href="">Подробнее о компании</a>
                             </div>
                             <img src="img/vsr.png" alt="">
                         </div>
@@ -281,7 +287,7 @@
                 </div>
             </div>
         </div>
-        <div class="plan111 col-12 d-flex justify-content-between">
+        <div class="plan111 col-12 d-flex justify-content-around">
             <div class="plan11">
                 <div class="plan12 d-flex flex-column align-items-center">
                     <!--  <h3 class="plan12h3">
@@ -300,8 +306,8 @@
                     </div> -->
                     <img src="img/нашраб.png" alt="">
                 </div>
-                <div class="plan13 d-flex flex-column align-items-center">
-                    <p class="plan13p">01. Исследование и упаковка</p>
+                <div class="plan13 d-flex flex-column  ">
+                    <h3 class="plan13h3"><span class="plan13sp">01.</span> Исследование и упаковка</h3>
                     <p class="plan13p">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
                         Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
                     <!-- <p class="plan13p">PHP 5 Enabled</p>
@@ -327,8 +333,8 @@
                     </div> -->
                     <img src="img/нашраб.png" alt="">
                 </div>
-                <div class="plan13 d-flex flex-column align-items-center">
-                    <p class="plan13p">01. Исследование и упаковка</p>
+                <div class="plan13 d-flex flex-column  ">
+                    <h3 class="plan13h3"><span class="plan13sp">01.</span> Исследование и упаковка</h3>
                     <p class="plan13p">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
                         Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
                     <!-- <p class="plan13p">PHP 5 Enabled</p>
@@ -354,8 +360,8 @@
                     </div> -->
                     <img src="img/нашраб.png" alt="">
                 </div>
-                <div class="plan13 d-flex flex-column align-items-center">
-                    <p class="plan13p">01. Исследование и упаковка</p>
+                <div class="plan13 d-flex flex-column  ">
+                    <h3 class="plan13h3"><span class="plan13sp">01.</span> Исследование и упаковка</h3>
                     <p class="plan13p">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
                         Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
                     <!-- <p class="plan13p">PHP 5 Enabled</p>
@@ -364,90 +370,93 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="member col-12 d-flex flex-column">
-                    <div class="member10 d-flex flex-column align-items-center">
-                        <h2 class="member10h2 h2">
-                            Наши проекты
-                        </h2>
-                        <p class="member10p p">
-                            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
-                            является стандартной "рыбой" для текстов на латинице с начала XVI века.
-                        </p>
+        <div class="memberback">
+            <div class="container ">
+                <div class="row">
+                    <div class="member col-12 d-flex flex-column">
+                        <div class="member10 d-flex flex-column align-items-center">
+                            <h2 class="member10h2 h2">
+                                Наши проекты
+                            </h2>
+                            <p class="member10p p">
+                                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                                является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                            </p>
 
-                    </div>
-                    <div class="member11 d-flex justify-content-between">
-                        <div class="member11in d-flex flex-column align-items-center">
-                            <img src="img/наш прож.png" alt="" class="member11img">
-                            <!-- <h3 class="member11h3">
-                                John Doe
-                            </h3>
-                            <p class="member11p">
-                                General Manager
-                            </p>
-                            <div class="member11-1 d-flex">
-                                <a href="#" class="member11a"><span class="fab fa-facebook-f"></span></a>
-                                <a href="#" class="member11a"><span class="fab fa-twitter"></span></a>
-                                <a href="#" class="member11a"><span class="fas fa-comments"></span></a>
-                                <a href="#" class="member11a"><span class="fab fa-instagram"></span></a>
-                            </div> -->
                         </div>
-                        <div class="member11in d-flex flex-column align-items-center">
-                            <img src="img/наш прож.png" alt="" class="member11img">
-                            <!-- <h3 class="member11h3">
-                                Alexa Biru
-                            </h3>
-                            <p class="member11p">
-                                Office Director
-                            </p>
-                            <div class="member11-1 d-flex">
-                                <a href="#" class="member11a"><span class="fab fa-facebook-f"></span></a>
-                                <a href="#" class="member11a"><span class="fab fa-twitter"></span></a>
-                                <a href="#" class="member11a"><span class="fas fa-comments"></span></a>
-                                <a href="#" class="member11a"><span class="fab fa-instagram"></span></a>
-                            </div> -->
+                        <div class="member11 d-flex justify-content-between">
+                            <div class="member11in d-flex flex-column align-items-center">
+                                <img src="img/наш прож.png" alt="" class="member11img">
+                                <!-- <h3 class="member11h3">
+                            John Doe
+                        </h3>
+                        <p class="member11p">
+                            General Manager
+                        </p>
+                        <div class="member11-1 d-flex">
+                            <a href="#" class="member11a"><span class="fab fa-facebook-f"></span></a>
+                            <a href="#" class="member11a"><span class="fab fa-twitter"></span></a>
+                            <a href="#" class="member11a"><span class="fas fa-comments"></span></a>
+                            <a href="#" class="member11a"><span class="fab fa-instagram"></span></a>
+                        </div> -->
+                            </div>
+                            <div class="member11in d-flex flex-column align-items-center">
+                                <img src="img/наш прож.png" alt="" class="member11img">
+                                <!-- <h3 class="member11h3">
+                            Alexa Biru
+                        </h3>
+                        <p class="member11p">
+                            Office Director
+                        </p>
+                        <div class="member11-1 d-flex">
+                            <a href="#" class="member11a"><span class="fab fa-facebook-f"></span></a>
+                            <a href="#" class="member11a"><span class="fab fa-twitter"></span></a>
+                            <a href="#" class="member11a"><span class="fas fa-comments"></span></a>
+                            <a href="#" class="member11a"><span class="fab fa-instagram"></span></a>
+                        </div> -->
+                            </div>
+                            <div class="member11in d-flex flex-column align-items-center">
+                                <img src="img/наш прож.png" alt="" class="member11img">
+                                <!-- <h3 class="member11h3">
+                            Ronobir sing
+                        </h3>
+                        <p class="member11p">
+                            Admin
+                        </p>
+                        <div class="member11-1 d-flex">
+                            <a href="#" class="member11a"><span class="fab fa-facebook-f"></span></a>
+                            <a href="#" class="member11a"><span class="fab fa-twitter"></span></a>
+                            <a href="#" class="member11a"><span class="fas fa-comments"></span></a>
+                            <a href="#" class="member11a"><span class="fab fa-instagram"></span></a>
+                        </div> -->
+                            </div>
+                            <div class="member11in d-flex flex-column align-items-center">
+                                <img src="img/наш прож.png" alt="" class="member11img">
+                                <!-- <h3 class="member11h3">
+                            Ronobir sing
+                        </h3>
+                        <p class="member11p">
+                            Admin
+                        </p>
+                        <div class="member11-1 d-flex">
+                            <a href="#" class="member11a"><span class="fab fa-facebook-f"></span></a>
+                            <a href="#" class="member11a"><span class="fab fa-twitter"></span></a>
+                            <a href="#" class="member11a"><span class="fas fa-comments"></span></a>
+                            <a href="#" class="member11a"><span class="fab fa-instagram"></span></a>
+                        </div> -->
+                            </div>
                         </div>
-                        <div class="member11in d-flex flex-column align-items-center">
-                            <img src="img/наш прож.png" alt="" class="member11img">
-                            <!-- <h3 class="member11h3">
-                                Ronobir sing
-                            </h3>
-                            <p class="member11p">
-                                Admin
-                            </p>
-                            <div class="member11-1 d-flex">
-                                <a href="#" class="member11a"><span class="fab fa-facebook-f"></span></a>
-                                <a href="#" class="member11a"><span class="fab fa-twitter"></span></a>
-                                <a href="#" class="member11a"><span class="fas fa-comments"></span></a>
-                                <a href="#" class="member11a"><span class="fab fa-instagram"></span></a>
-                            </div> -->
+                        <div class="member12 d-flex justify-content-center">
+                            <!--    <a href="#" class="member12a"><i class="fas fa-circle"></i></a>
+                    <a href="#" class="member12a"><i class="fas fa-circle"></i></a>
+                    <a href="#" class="member12a"><i class="fas fa-circle"></i></a> -->
+                            <a href="#" class="header11a">Все проекты</a>
                         </div>
-                        <div class="member11in d-flex flex-column align-items-center">
-                            <img src="img/наш прож.png" alt="" class="member11img">
-                            <!-- <h3 class="member11h3">
-                                Ronobir sing
-                            </h3>
-                            <p class="member11p">
-                                Admin
-                            </p>
-                            <div class="member11-1 d-flex">
-                                <a href="#" class="member11a"><span class="fab fa-facebook-f"></span></a>
-                                <a href="#" class="member11a"><span class="fab fa-twitter"></span></a>
-                                <a href="#" class="member11a"><span class="fas fa-comments"></span></a>
-                                <a href="#" class="member11a"><span class="fab fa-instagram"></span></a>
-                            </div> -->
-                        </div>
-                    </div>
-                    <div class="member12 d-flex justify-content-center">
-                        <!--    <a href="#" class="member12a"><i class="fas fa-circle"></i></a>
-                        <a href="#" class="member12a"><i class="fas fa-circle"></i></a>
-                        <a href="#" class="member12a"><i class="fas fa-circle"></i></a> -->
-                        <a href="#" class="header11a">Все проекты</a>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="blog" id="Blog">
             <div class="container">
                 <div class="row">
